@@ -1,0 +1,55 @@
+ul{
+    list-style: none;
+}
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #EFF1ED
+    ;
+}
+
+nav {
+    width: 100%;
+    max-width: 1000px;
+
+}
+.container {
+    padding: 0;
+    display: flex;
+    list-style: none;
+    border: 1px solid black;
+    justify-content: flex-end;
+    
+}
+
+nav ul li {
+    padding: 15px;
+}
+
+main {
+   
+    width: 100%;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+
+
+.page{
+    display: flex;
+    flex-direction: column;
+    
+}
+.circular--square{
+    border-radius: 50%;
+    width: 200PX;
+    height: 250px;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+
+}
